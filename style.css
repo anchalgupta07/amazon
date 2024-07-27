@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+   
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+    
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("a logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid rgb(241, 241, 237);
+}
+/** box2**/
+.add-first{
+    color: #ccc;
+    font-size: 0.86rem;
+    margin-left: 30px;
+    justify-content: space-evenly;
+}
+.add-second{
+    font-size: 1rem;
+    margin-right: 25px;
+}
+.add-icon{
+margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+/** box3**/
+.nav-search{
+    display: flex;
+   
+    background-color:rgb(244, 234, 234);
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.search-select{
+    background-color: grey;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 35px;
+}
+.search-input{
+    width: 100%;
+    font-size: 0.5cm;
+    border: none;
+}
+.search-icon{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 1.2rem;
+   background-color:rgba(234, 187, 45, 0.867);
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+   color: black;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/**box4**/
+span{
+    font-size: 0.8rem;
+  margin-right: 40px;
+    
+}
+.nav-second{
+    font-size: 0.90rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    
+}
+/**box6**/
+.nav-cart{
+    font-size: 25px;
+    font-weight: 0.8rem;
+    margin-right: 0.8rem;
+
+}
+/**box5**/
+span{
+    margin-left: 40px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-second{
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+  
+/** panel**/
+.panel{
+    height: 50px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: space-evenly;
+    margin-right: 20px;
+   
+
+}
+.panel-ops p{
+  display: inline;
+  color: white;
+  margin-left: 40px;
+
+}
+.panel-ops{
+    width: 75%;
+    
+}
+.panel-deals{
+  font-size: 1.5rem;
+font-weight: 800;
+}
+/**main section**/
+.main-section{
+    background-image:url("main\ section.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.main-img{
+    background-color: white;
+    color:black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+   
+}
+.main-img a{
+    color: #007100;
+    
+}
+/**shop-section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(237, 228, 228);
+}
+.box{
+    height: 100px;
+    border: 2px solid black;
+    width: 350px;
+    height: 400px;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+ 
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+
+
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box p{
+    color: #007100;
+}
+/**footer-pannel1**/
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 30px;
+    width: 500px;
+  color: #dddddddd;
+}
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foot-pannel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.pages{
+  
+    padding-top: 25px;
+
+}
+.copyright{
+   
+    padding-top: 5px;
+}
